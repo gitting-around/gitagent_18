@@ -25,11 +25,8 @@ Create the following folders for the results (assuming ~/catkin_ws as base folde
 In order to run the simulations for each case, execute the following scripts (which should be put in the ~/catkin_ws folder)
 
 ./run_static.sh
-
 ./run_dynamic.sh
-
 ./run_dynamic_mem.sh
-
 ./run_pressures.sh
 
 In order to 
