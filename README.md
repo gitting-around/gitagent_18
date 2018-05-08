@@ -50,3 +50,4 @@ cd braitenberg_1/
 ./big_30_static_res.sh 2
 
 In case you run into any troubles in running the simulations, send me a message and I'll help.
+Results maybe depending on the platform where the simulations are running.
