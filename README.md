@@ -22,6 +22,7 @@ Create the following folders for the results (assuming ~/catkin_ws as base folde
 ~/catkin_ws/results/braitenberg_1/dynamic/mem/pressure_0.2/
 
 ~/catkin_ws/results/braitenberg_1/static/pressure_0.05/
+
 ~/catkin_ws/results/braitenberg_1/static/pressure_0.125/
 ~/catkin_ws/results/braitenberg_1/static/pressure_0.2/
 
@@ -33,7 +34,9 @@ In order to run the simulations for each case, execute the following scripts (wh
 ./run_pressures.sh
 
 In order to produce the results, do the following (make sure the file result_scripts/plot_4.py is reachable by the script below).
+
 cd braitenberg_1/
+
 ./big_30_dynamic_res.sh 1
 
 ./big_30_dynamic_res.sh 2
